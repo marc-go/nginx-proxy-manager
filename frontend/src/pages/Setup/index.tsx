@@ -128,9 +128,9 @@ export default function Setup() {
 												<div className="form-floating mb-3">
 													<input
 														id="email"
-														type="email"
+														type="text"
 														className={`form-control ${form.errors.email && form.touched.email ? "is-invalid" : ""}`}
-														placeholder={intl.formatMessage({ id: "email-address" })}
+														placeholder="Username"
 														{...field}
 													/>
 													<label htmlFor="email">
