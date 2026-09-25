@@ -123,7 +123,7 @@ function LoginForm() {
 										<input
 											{...field}
 											ref={emailRef}
-											type="email"
+											type="text"
 											required
 											className={`form-control ${form.errors.email && form.touched.email ? " is-invalid" : ""}`}
 											placeholder={intl.formatMessage({ id: "email-address" })}
